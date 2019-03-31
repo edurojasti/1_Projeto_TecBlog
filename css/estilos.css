@@ -24,6 +24,28 @@ body{
     padding: 10px;
 }
 
+#area-principal{
+    width: 920px;
+    margin: 8px auto;
+}
+
+#area_postagens, #area_lateral {
+    background: #f7b600;
+    border-radius: 10px;
+}
+
+#area_postagens {
+    width: 660px;
+    float: left;
+}
+
+#area_lateral{
+    width: 240px;
+    float: right;
+}
+
+
+
 /* === Formatações Gerais ===*/
 h1{
     color: #4e4e4e;
@@ -41,7 +63,7 @@ h1{
     padding: 8px 12px;
 }
 
-a:hover{
+#area-menu a:hover{
     color: #f7b600;
     background-color: white;
     border-radius: 5px;
@@ -50,4 +72,23 @@ a:hover{
 a{
     color: white;
     text-decoration: none;
+}
+
+#rodape{
+    background: #ccc;
+    clear: both;
+    padding: 20px;
+}
+
+#rodape h4{
+    text-align: center;
+}
+
+.postagem{
+    padding: 10px;
+}
+
+.postagem img{
+    border-radius: 8px;
+
 }
