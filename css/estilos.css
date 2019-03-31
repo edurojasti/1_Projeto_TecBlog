@@ -29,9 +29,9 @@ body{
     margin: 8px auto;
 }
 
-#area_postagens, #area_lateral {
-    background: #f7b600;
+#area_postagens{
     border-radius: 10px;
+    margin-bottom: 8px;
 }
 
 #area_postagens {
@@ -84,11 +84,51 @@ a{
     text-align: center;
 }
 
-.postagem{
+#links ul>li{
+    list-style: none;
+}
+
+#links ul>li a{
+    color: #f7b600;
+}
+
+.postagem, #links, #PostagemRecentes{
     padding: 10px;
+    background: #fafafa;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.postagem h2{
+    color: gray;
+}
+
+.postadoEM{
+    display: block;
+    border-bottom: 2px solid gray;
+    margin-bottom: 6px;
 }
 
 .postagem img{
     border-radius: 8px;
 
+}
+
+.leiaMais{
+    background: #f7b600;
+    color: #e6e6e6;
+    padding: 5px;
+    margin-top: 5px;
+    display: block;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.h4Postagens{
+    background: #4e4e4e;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;    
 }
