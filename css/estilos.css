@@ -1,0 +1,109 @@
+/*importação de fontes da Google*/
+ @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+/*Limpar formatações padrão...*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* ===== layout ===== */
+#cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    background: white;
+    width: 920px;
+    margin: 5px auto;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#postagens, #menu-lateral{
+    background: #F8F8FF;    
+    margin: 2px 8px;
+}
+
+#postagens{
+    width: 70%;
+    padding: 10px;
+}
+#menu-lateral{
+    width: 30%;
+}
+
+
+/* === Formatações Gerais ===*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: aliceblue;
+}
+
+/*Formatação menu*/
+a:link, a:visited{
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*footer*/
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #ccc;
+    padding: 11px;
+}
+
+.post{
+    margin: 10px 0;
+}
+
+.post h2{
+    color: #4682B4;
+}
+
+.imagePost img{
+    border-radius: 10px;
+}
+
+.postadoEm{
+    border-bottom: 2px solid #ccc;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.imagePost p{
+    margin: 7px 0;
+}
