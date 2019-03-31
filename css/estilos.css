@@ -60,7 +60,7 @@ h1{
 }
 
 /*Formatação menu*/
-a:link, a:visited{
+#area-menu a:link, a:visited{
     color: #FFF;
     text-decoration: none;
     padding: 8px 12px;
@@ -106,4 +106,23 @@ a{
 
 .imagePost p{
     margin: 7px 0;
+}
+
+ul a{
+    color: #4e4e4e;
+}
+
+ul, li{
+     margin: 5px 0;
+}
+#menu-lateral{
+    padding: 8px;
+}
+
+#menu-lateral h3{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
 }
